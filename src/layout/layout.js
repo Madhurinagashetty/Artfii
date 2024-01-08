@@ -1,7 +1,13 @@
+import Footer from "./footer"
 import Header from "./header"
-const ArtLayout = () =>{
+
+const ArtLayout = (props) => {
     return (
+        <>
         <Header/>
+     {props.children}
+        <Footer/>
+        </>
     )
 }
 export default ArtLayout
