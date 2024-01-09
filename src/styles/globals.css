@@ -1,0 +1,9 @@
+html,
+body {
+  background: url("/static/mesh-gradient.png");
+background-position: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+color: #ffff;
+height: 100%;
+}
